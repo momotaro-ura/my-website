@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja">
+ 
+<head>
+    <meta charset="UTF-8">
+    <title>フォーム作成</title>
+</head>
+ 
+<body>
+    <form action="" method="POST">
+        <p>名前:<input type="text" name="name"></p>
+        <p>メッセージ:</p>
+        <textarea name="message" rows="5" cols="40"></textarea>
+        <p>職業:
+            学生<input type="radio" name="profession" value="student">
+            教師<input type="radio" name="profession" value="teacher">
+        </p>
+        <p>好きな動物:
+            犬<input type="checkbox" name="animals" value="dog">
+            ねこ<input type="checkbox" name="animals" value="cat">
+            ウサギ<input type="checkbox" name="animals" value="rabbit">
+            猿<input type="checkbox" name="animals" value="monkey">
+        </p>
+        <p>今日の昼食:
+            <select name="lunch">
+                <option value="riceball">おにぎり</option>
+                <option value="udon">うどん</option>
+                <option value="ramen">ラーメン</option>
+                <option value="soba">そば</option>
+            </select>
+        </p>
+        <input type="submit" value="送信">
+        <input type="reset" value="リセット">
+    </form>
+    <p><a href="main.html">メインに戻る</a></p>
+</body>
+ 
+</html>
